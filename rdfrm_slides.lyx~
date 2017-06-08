@@ -224,6 +224,85 @@ definecolor{verylightgray}{gray}{0.96}  % define a light gray color for table
 \end_layout
 
 \begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Analysis of the effect of the effect of highway on firms using newly constructed
+ geocoded firm-level data in India
+\end_layout
+
+\begin_layout Itemize
+Contribution: allows the analysis of the effect of transportation infrastructure
+ on within-firm outcomes of manufacturing firms
+\end_layout
+
+\begin_layout Itemize
+Detailed balance sheet data with product-level information
+\end_layout
+
+\begin_layout Itemize
+Geocoded firm addresses to get precise street-level location of each manufacturi
+ng firm in Prowess
+\end_layout
+
+\begin_layout Itemize
+Detailed data on highway construction (from ML Info map)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Results So Far...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Long-difference regression
+\end_layout
+
+\begin_layout Itemize
+Positive effect for manufacturing  firms near highway
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 T.O.C.
 \end_layout
 
@@ -2981,6 +3060,22 @@ Same distance bins as GGK at firm-level
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{-5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -3047,6 +3142,22 @@ vspace*{-5mm}
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{-2mm}
 \end_layout
 
 \end_inset
@@ -3391,7 +3502,7 @@ Q: How does this improve interpretation of regressions with district FE?
 
 \begin_deeper
 \begin_layout Itemize
-Distance to near point seem arbitrary
+Does distance to near point capture effect of GQ?
 \end_layout
 
 \end_deeper
@@ -3558,6 +3669,176 @@ textwidth}{!}{%
 \begin_inset CommandInset include
 LatexCommand input
 filename "/Users/palermospenano/Desktop/Dropbox/research/roads_india_firms/codes/temp/e_reg-distance-to-district-near-point-bins-districtfe.tex"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{-5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Continuous Distance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+colorbox{verylightgray}{%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\backslash
+resizebox{
+\backslash
+textwidth}{!}{%
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset include
+LatexCommand input
+filename "/Users/palermospenano/Desktop/Dropbox/research/roads_india_firms/codes/temp/e_reg-distance-to-district-near-point-continuous-nocontrol.tex"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{-5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+colorbox{verylightgray}{%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\backslash
+resizebox{
+\backslash
+textwidth}{!}{%
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset include
+LatexCommand input
+filename "/Users/palermospenano/Desktop/Dropbox/research/roads_india_firms/codes/temp/e_reg-distance-to-district-near-point-continuous-districtfe.tex"
 
 \end_inset
 
