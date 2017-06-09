@@ -302,10 +302,6 @@ Positive effect for manufacturing firms near highway
 
 \end_layout
 
-\begin_layout Section
-T.O.C.
-\end_layout
-
 \begin_layout Frame
 \begin_inset Argument 4
 status open
@@ -441,6 +437,69 @@ total income 80% of India's GDP
 \begin_layout Itemize
 Street-level geolocated firm locations (from firm's address) using Python
  and Google Maps and Places API
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dataset: Prowess
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameSubtitle
+Manufacturing firms only
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename manufacturing_firms.jpg
+	scale 27
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -3474,7 +3533,7 @@ Firm Distance to District Near Points
 status open
 
 \begin_layout Plain Layout
-Firm Distance to District Near Points
+Firms Distance to District Near Points
 \end_layout
 
 \end_inset
@@ -3529,11 +3588,40 @@ Firm to District Near Point
 
 \begin_deeper
 \begin_layout Standard
-FIGURE HERE !!!
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
 \end_layout
 
-\begin_layout Itemize
-one district and firms in it with point and highway
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename rdfrm_district_near_point.jpg
+	scale 36
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -3885,7 +3973,7 @@ vspace*{-5mm}
 \end_layout
 
 \begin_layout Section
-Things to Consider Next
+To Do
 \end_layout
 
 \begin_layout Frame
@@ -3923,6 +4011,85 @@ Interpretation
 \begin_inset Separator plain
 \end_inset
 
+
+\end_layout
+
+\begin_layout Section
+Appendix
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Distance Bins
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename rdfrm_district_near_point.jpg
+	scale 36
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
 
 \end_layout
 

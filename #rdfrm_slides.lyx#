@@ -224,7 +224,82 @@ definecolor{verylightgray}{gray}{0.96}  % define a light gray color for table
 \end_layout
 
 \begin_layout Section
-T.O.C.
+Introduction
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Analysis of the effect of the effect of highway on firms using newly constructed
+ geocoded firm-level data in India
+\end_layout
+
+\begin_layout Itemize
+Contribution: allows the analysis of the effect of transportation infrastructure
+ on within-firm outcomes of manufacturing firms
+\end_layout
+
+\begin_layout Itemize
+Detailed balance sheet data with product-level information
+\end_layout
+
+\begin_layout Itemize
+Geocoded firm addresses to get precise street-level location of each manufacturi
+ng firm in Prowess
+\end_layout
+
+\begin_layout Itemize
+Detailed data on highway construction (from ML Info map)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Results So Far...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Long-difference regression
+\end_layout
+
+\begin_layout Itemize
+Positive effect for manufacturing firms near highway
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
 \end_layout
 
 \begin_layout Frame
@@ -362,6 +437,69 @@ total income 80% of India's GDP
 \begin_layout Itemize
 Street-level geolocated firm locations (from firm's address) using Python
  and Google Maps and Places API
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Dataset: Prowess
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout FrameSubtitle
+Manufacturing firms only
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename manufacturing_firms.jpg
+	scale 27
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -2981,6 +3119,22 @@ Same distance bins as GGK at firm-level
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{-5mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -3047,6 +3201,22 @@ vspace*{-5mm}
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{-2mm}
 \end_layout
 
 \end_inset
@@ -3363,7 +3533,7 @@ Firm Distance to District Near Points
 status open
 
 \begin_layout Plain Layout
-Firm Distance to District Near Points
+Firms Distance to District Near Points
 \end_layout
 
 \end_inset
@@ -3418,11 +3588,40 @@ Firm to District Near Point
 
 \begin_deeper
 \begin_layout Standard
-FIGURE HERE !!!
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
 \end_layout
 
-\begin_layout Itemize
-one district and firms in it with point and highway
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename rdfrm_district_near_point.jpg
+	scale 36
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -3774,7 +3973,7 @@ vspace*{-5mm}
 \end_layout
 
 \begin_layout Section
-Things to Consider Next
+To Do
 \end_layout
 
 \begin_layout Frame
@@ -3812,6 +4011,85 @@ Interpretation
 \begin_inset Separator plain
 \end_inset
 
+
+\end_layout
+
+\begin_layout Section
+Appendix
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Distance Bins
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/palermospenano/Desktop/Dropbox/research/roads_india_firms/codes/temp/figures/firm-bin-count-districtGGK.png
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Frame
 
 \end_layout
 
