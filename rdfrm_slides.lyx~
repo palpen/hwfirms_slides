@@ -3640,78 +3640,6 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-colorbox{verylightgray}{%
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-resizebox{
-\backslash
-textwidth}{!}{%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset CommandInset include
-LatexCommand input
-filename "/Users/palermospenano/Desktop/Dropbox/research/roads_india_firms/codes/GGK_replication/GGKtable/e_ggk_reg_initial_mean.tex"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -3821,73 +3749,6 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-colorbox{verylightgray}{%
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\backslash
-resizebox{
-\backslash
-textwidth}{!}{%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset CommandInset include
-LatexCommand input
-filename "/Users/palermospenano/Desktop/Dropbox/research/roads_india_firms/codes/GGK_replication/GGKtable/e_ggk_reg_state_mean.tex"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -3913,6 +3774,7 @@ Check Pre-trends
 
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 See if district grows in anticipation of the GQ highway construction
 \end_layout
@@ -3958,6 +3820,7 @@ Conclusion
  at the district level)
 \end_layout
 
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -4017,73 +3880,6 @@ textwidth}{!}{%
 \begin_inset CommandInset include
 LatexCommand input
 filename "/Users/palermospenano/Desktop/Dropbox/research/roads_india_firms/codes/GGK_replication/GGKtable/e_ggk_pretrend_reg_agg_f1992.tex"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-colorbox{verylightgray}{%
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\backslash
-resizebox{
-\backslash
-textwidth}{!}{%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset CommandInset include
-LatexCommand input
-filename "/Users/palermospenano/Desktop/Dropbox/research/roads_india_firms/codes/GGK_replication/GGKtable/e_ggk_pretrend_reg_mean_f1992.tex"
 
 \end_inset
 
@@ -4203,73 +3999,6 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-colorbox{verylightgray}{%
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\backslash
-resizebox{
-\backslash
-textwidth}{!}{%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset CommandInset include
-LatexCommand input
-filename "/Users/palermospenano/Desktop/Dropbox/research/roads_india_firms/codes/GGK_replication/GGKtable/e_ggk_pretrend_reg_mean_f1995.tex"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -4329,73 +4058,6 @@ textwidth}{!}{%
 \begin_inset CommandInset include
 LatexCommand input
 filename "/Users/palermospenano/Desktop/Dropbox/research/roads_india_firms/codes/GGK_replication/GGKtable/e_ggk_pretrend_reg_agg_f1997.tex"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\begin_layout Plain Layout
-
-}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-colorbox{verylightgray}{%
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-noindent
-\backslash
-resizebox{
-\backslash
-textwidth}{!}{%
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset CommandInset include
-LatexCommand input
-filename "/Users/palermospenano/Desktop/Dropbox/research/roads_india_firms/codes/GGK_replication/GGKtable/e_ggk_pretrend_reg_mean_f1997.tex"
 
 \end_inset
 
