@@ -876,7 +876,8 @@ Balanced panel of firms
 \end_layout
 
 \begin_layout Itemize
-Try for both firm-level distance measure and district-level distance measure
+Try for district-level distance measure and firm-level distance measure
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -1376,6 +1377,53 @@ Distance Bins: various sizes across different specifications below
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Large District-level Distance Measure}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Regression: District-level distance measure
 \end_layout
 
@@ -1386,8 +1434,14 @@ Regression: District-level distance measure
 
 \begin_deeper
 \begin_layout Itemize
-District-level measure of distance (the same as Ghani, Kerr, and Goswami
- (2014))
+District-level measure of distance (similar to 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ghani:2016fd"
+
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Itemize
@@ -1395,7 +1449,7 @@ Distance of district border nearest to a GQ highway in 2010
 \end_layout
 
 \begin_layout Itemize
-Omitted category in district-level distance bins: 0-10km
+Omitted category in district-level distance bins: 0-5km
 \end_layout
 
 \end_deeper
@@ -1424,7 +1478,7 @@ Regression: District-level distance measure
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset ERT
@@ -1500,6 +1554,49 @@ status open
 status open
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Large Firm-level Distance Measure}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
 Regression: Firm-level distance Measure
 \end_layout
 
@@ -1509,6 +1606,11 @@ Regression: Firm-level distance Measure
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+Distance is measured as the great circle distance of a firm to the completed
+ GQ network
+\end_layout
+
 \begin_layout Itemize
 Pre / post period means: 2000-2001, 2010-2012
 \end_layout
@@ -1520,7 +1622,7 @@ mean of outcomes between 2000-2001 and between 2010-2012
 
 \end_deeper
 \begin_layout Itemize
-Omitted distance bin: 0-10km
+Omitted distance bin: 0-5km
 \end_layout
 
 \end_deeper
@@ -1708,6 +1810,97 @@ status open
 
 \end_layout
 
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Large Other Distance Measures}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Other Distance Measures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Try other measures of distance
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Firm-level distance using the same bins as 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ghani:2016fd"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Log of great circle distance in year of completion (continuous distance
+ measure)
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
@@ -2149,7 +2342,50 @@ Firm Distance to District Near Points
 status open
 
 \begin_layout Plain Layout
-Firms Distance to District Near Points
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\backslash
+Large Firm's Distance to District Near Points}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Firm's Distance to District Near Points
 \end_layout
 
 \end_inset
@@ -2639,13 +2875,16 @@ status open
 centering
 \end_layout
 
+\begin_layout Plain Layout
+
+{
+\backslash
+Large Appendix}
+\end_layout
+
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Appendix
 \end_layout
 
 \end_deeper
@@ -2969,27 +3208,16 @@ status open
 centering
 \end_layout
 
+\begin_layout Plain Layout
+
+{
+\backslash
+Large District-level Regressions: Ghani, Goswami, Kerr (2014) Replication}
+\end_layout
+
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-\size largest
-District-level
-\series default
- 
-\series bold
-Regressions
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-\size largest
-Ghani, Goswami, Kerr (2014) Replication
 \end_layout
 
 \end_deeper
