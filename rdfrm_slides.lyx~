@@ -85,8 +85,8 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
-\cite_engine_type default
+\cite_engine natbib
+\cite_engine_type authoryear
 \biblio_style plain
 \use_bibtopic false
 \use_indices false
@@ -116,7 +116,8 @@
 \begin_body
 
 \begin_layout Title
-Roads and Firm Productivity
+Highways and Firms using Detailed Geolocated Firm Location Data in India
+ 
 \end_layout
 
 \begin_layout Institute
@@ -223,48 +224,25 @@ definecolor{verylightgray}{gray}{0.96}  % define a light gray color for table
 
 \end_layout
 
-\begin_layout Section
-Introduction
-\end_layout
-
 \begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-Introduction
+Table of Contents
 \end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
 
 \end_inset
 
 
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Analysis of the effect of the effect of highway on firms using newly constructed
- geocoded firm-level data in India
-\end_layout
-
-\begin_layout Itemize
-Contribution: allows the analysis of the effect of transportation infrastructure
- on within-firm outcomes of manufacturing firms
-\end_layout
-
-\begin_layout Itemize
-Detailed balance sheet data with product-level information
-\end_layout
-
-\begin_layout Itemize
-Geocoded firm addresses to get precise street-level location of each manufacturi
-ng firm in Prowess
-\end_layout
-
-\begin_layout Itemize
-Detailed data on highway construction (from ML Info map)
-\end_layout
-
-\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -272,12 +250,16 @@ Detailed data on highway construction (from ML Info map)
 
 \end_layout
 
+\begin_layout Section
+Motivation
+\end_layout
+
 \begin_layout Frame
 \begin_inset Argument 4
 status open
 
 \begin_layout Plain Layout
-Literature Review
+Motivation [!!!]
 \end_layout
 
 \end_inset
@@ -287,7 +269,84 @@ Literature Review
 
 \begin_deeper
 \begin_layout Itemize
-To be added...
+Extensive literature studying the impact of highways on regional economic
+ growth
+\end_layout
+
+\begin_layout Itemize
+Papers looking at highways on local economic outcomes
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Faber:2014kma"
+
+\end_inset
+
+,
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Alder:2015tk"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "BaumSnow:2016tt"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Papers looking at highways on firms
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Developed country: 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Gibbons:xqVOoqqt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Developing country: 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Datta:2012dd"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ghani:2016fd"
+
+\end_inset
+
+, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Ghani:2016jv"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+!!! To be complete !!!
 \end_layout
 
 \end_deeper
@@ -346,20 +405,39 @@ Positive effect for manufacturing firms near highway
 status open
 
 \begin_layout Plain Layout
-Table of Contents
+Motivation
 \end_layout
-
-\end_inset
-
-
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
 
 \end_inset
 
 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Analyze the effect of highways on firms using newly constructed geocoded
+ firm-level data in India
+\end_layout
+
+\begin_layout Itemize
+Contribution: allows the analysis of the effect of transportation infrastructure
+ on within-firm outcomes of manufacturing firms
+\end_layout
+
+\begin_layout Itemize
+Detailed balance sheet data with product-level information
+\end_layout
+
+\begin_layout Itemize
+Geocoded firm addresses to get precise street-level location of each manufacturi
+ng firm in Prowess
+\end_layout
+
+\begin_layout Itemize
+Detailed data on highway construction (from ML Info map)
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -390,7 +468,7 @@ Dataset: Prowess
 
 \begin_deeper
 \begin_layout Itemize
-Prowess from CMIE
+Prowess data from the Centre for Monitoring the Indian Economy (CMIE)
 \end_layout
 
 \begin_layout Itemize
@@ -453,7 +531,7 @@ Additional info (based on 2013-2014 data subset)
 
 \begin_deeper
 \begin_layout Itemize
-total income 80% of India's GDP (!!!)
+total income 80% of India's GDP
 \end_layout
 
 \begin_layout Itemize
@@ -786,19 +864,23 @@ Firm-level Regressions
 
 \begin_deeper
 \begin_layout Itemize
-Summary statistics at the firm level
+Summary statistics of outcomes at the firm level
 \end_layout
 
 \begin_layout Itemize
-District-level measure of distance
+Long difference regression using distance bins
 \end_layout
 
 \begin_layout Itemize
-Firm-level measure of distance: bins
+Balanced panel of firms
 \end_layout
 
 \begin_layout Itemize
-Firm-level measure of distance: continuous
+Try for both firm-level distance measure and district-level distance measure
+\end_layout
+
+\begin_layout Itemize
+Firm-level distance to point on district boundary closest to highway
 \end_layout
 
 \end_deeper
@@ -818,7 +900,7 @@ Summary Statistics
 status open
 
 \begin_layout Plain Layout
-Summary Statistics
+Summary Statistics of Outcomes
 \end_layout
 
 \end_inset
@@ -854,6 +936,63 @@ Manufacturing firms
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Outcome Variables
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Total Assets (sum of current and non-current assets)
+\end_layout
+
+\begin_layout Itemize
+Gross Fixed Assets (property plant and equipment)
+\end_layout
+
+\begin_layout Itemize
+Sales
+\end_layout
+
+\begin_layout Itemize
+Total Income
+\end_layout
+
+\begin_layout Itemize
+TFP (Estimated using 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Levinsohn:2003bf"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Labour Productivity (Sales / Wage Bill)
+\end_layout
+
+\begin_layout Itemize
+Value Added (Sales - power and fuel - raw materials)
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
 \end_inset
@@ -974,7 +1113,7 @@ Summary Statistics: Outcomes and Distance
 
 \begin_deeper
 \begin_layout FrameSubtitle
-All manufacturing firms
+All manufacturing firms in corresponding years
 \end_layout
 
 \begin_layout Standard
@@ -1237,48 +1376,6 @@ Distance Bins: various sizes across different specifications below
 status open
 
 \begin_layout Plain Layout
-Outcome Variables
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Sales
-\end_layout
-
-\begin_layout Itemize
-Total Income
-\end_layout
-
-\begin_layout Itemize
-Total Capital (shares issued, capitalized profits) 
-\end_layout
-
-\begin_layout Itemize
-Gross Fixed Assets (property plant and equipment)
-\end_layout
-
-\begin_layout Itemize
-Total Assets (sum of current and non-current assets)
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
 Regression: District-level distance measure
 \end_layout
 
@@ -1319,7 +1416,7 @@ Regression: District-level distance measure
 
 \end_inset
 
-
+ 
 \end_layout
 
 \begin_deeper
@@ -2481,48 +2578,6 @@ vspace*{-5mm}
 \end_inset
 
 
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-To Do
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Things to Consider Next
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Heterogenous effect by firm size 
-\end_layout
-
-\begin_layout Itemize
-Heterogenous effect by hinterland vs coastal firms
-\end_layout
-
-\begin_layout Itemize
-TFP, firm size (total salary paid?) as an outcome
-\end_layout
-
-\begin_layout Itemize
-Interpretation
 \end_layout
 
 \end_deeper
@@ -4024,6 +4079,66 @@ status open
 \end_deeper
 \begin_layout Standard
 \begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+References
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size largest
+References
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "rdfrm_references"
+options "plainnat"
+
 \end_inset
 
 
