@@ -116,8 +116,7 @@
 \begin_body
 
 \begin_layout Title
-Highways and Firms using Detailed Geolocated Firm Location Data in India
- 
+Highways and Firms using Detailed Geolocated Firm-Level Data in India 
 \end_layout
 
 \begin_layout Institute
@@ -2934,7 +2933,7 @@ Manufacturing firms only
 status open
 
 \begin_layout Plain Layout
-Distance Bins
+Distance Bins: Firm-Level Bins
 \end_layout
 
 \end_inset
@@ -2979,52 +2978,7 @@ includegraphics[scale=0.35]{firm-bin-count-v1.png}
 status open
 
 \begin_layout Plain Layout
-Distance Bins
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-centering
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-includegraphics[scale=0.35]{firm-bin-count-v2-bigger.png}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Standard
-\begin_inset Separator plain
-\end_inset
-
-
-\end_layout
-
-\begin_layout Frame
-\begin_inset Argument 4
-status open
-
-\begin_layout Plain Layout
-Distance Bins
+Distance Bins: Firm-Level GGK Bins
 \end_layout
 
 \end_inset
@@ -3069,7 +3023,52 @@ includegraphics[scale=0.35]{firm-bin-count-GGK.png}
 status open
 
 \begin_layout Plain Layout
-Distance Bins
+Distance Bins: Firm-Level District Near Points
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[scale=0.35]{firm-bin-count-district_near_point.png}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Distance Bins: District-Level GGK Bins
 \end_layout
 
 \end_inset
@@ -3114,7 +3113,7 @@ includegraphics[scale=0.35]{firm-bin-count-districtGGK.png}
 status open
 
 \begin_layout Plain Layout
-Distance Bins
+Distance Bins: Continuous Distance
 \end_layout
 
 \end_inset
